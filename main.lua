@@ -11,7 +11,7 @@ end
 
 SLASH_TEST1 = "/test1"
 SlashCmdList["TEST"] = function(hand)
-    if not (hand ~= "mainhand" or hand ~= "offhand" or hand ~= "ranged") then
+    if not (hand == "mainhand" or hand == "offhand" or hand == "ranged") then
         print('Error: argument must be one of "mainhand", "offhand", or "ranged"!')
         return
     end
