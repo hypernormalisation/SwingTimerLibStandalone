@@ -1,0 +1,8 @@
+## Interface: 30400
+## Version: 1.2.0
+## Title: SwingTimerLibStandalone
+## Notes: Quick addon to test LibClassicSwingTimerAPI when packaged as an external dependency.
+## Author: Swedge
+## Dependencies: LibClassicSwingTimerAPI
+
+main.lua
